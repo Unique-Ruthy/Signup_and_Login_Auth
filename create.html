@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Integration</title>
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+
+  <body>
+    <ul class="nav">
+      <li><a href="./index.html" class="nav_link">Home</a></li>
+    </ul>
+
+    <section>
+      <div class="sidebar">
+        <aside>
+          <ul>
+            <li><a href="/profile.html">Profile</a></li>
+            <li><a href="/create-blog.html">Create blog</a></li>
+            <li><a href="/blog.html">Blogs</a></li>
+          </ul>
+        </aside>
+
+        <div>
+          <!-- <h1>Create Blog</h1> -->
+
+          <form action="" id="signupForm" class="hideform">
+            <p class="form_title">Register</p>
+            <p id="msg"></p>
+            <div class="input_group">
+              <label for="firstname">Firstname</label>
+              <input type="text" name="firstName" />
+            </div>
+            <div class="input_group">
+              <label for="lastname">Lastname</label>
+              <input type="text" name="lastName" id="lastname" />
+            </div>
+            <div class="input_group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="input_group">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <div class="input_group">
+              <input type="submit" id="signupBtn" value="signup" />
+            </div>
+
+            <p class="navigate">
+              Already have an account? <a href="./signin.html">Sign In</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="/profile.js"></script>
+  </body>
+</html>

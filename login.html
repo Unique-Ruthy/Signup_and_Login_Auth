@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Welcome Page</title>
+  </head>
+  <body>
+    
+      <div class="container">
+        <form action="" class="signinForm">
+          <h1>Welcome</h1>
+          <p class="para1">Please enter your details</p>
+          <p id="msg"></p>
+          <label for=""> Email</label>
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Please enter your email"
+            required
+            style="margin: 1em 0em"
+          />
+
+          <label for=""> Password</label>
+
+          <input
+            type="password"
+            ,
+            name="password"
+            ,
+            id="password"
+            ,
+            placeholder="............"
+            style="margin-bottom: 1em"
+          />
+
+          <div class="Remfor">
+            <div>
+              <label id="check" for="checkbox">
+                <input
+                  type="checkbox"
+                  id="checkbox"
+                  value="checkbox"
+                  style="margin-right: 20px"
+                /><span>Remember me</span></label
+              >
+            </div>
+            <div class="forgot" style="margin-right: 30%">
+              <a href="#">Forgot password</a>
+            </div>
+          </div>
+
+          <button type="submit" class="btn SigninBtn">Sign in</button>
+
+          <p id="p2"style="margin-right: 30%"></p>
+            Don't have an account?
+            <span><a href="signup.html">Sign up for free</a></span>
+          </p>
+        </form>
+      </div>
+    
+    <script src="login.js"></script>
+  </body>
+</html>
